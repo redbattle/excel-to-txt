@@ -4,7 +4,7 @@
 - 【win】鼠标右键用`git`打开`bash`窗口
 - 安装依赖库，在项目根目录`excel-to-txt/`下执行
     ```bash
-    pip3 install -r requirements.txt
+    pip install -r requirements.txt
     ```
 - 根据需要修改`main.py`文件
     ```bash
