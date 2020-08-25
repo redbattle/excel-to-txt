@@ -10,8 +10,7 @@ for unit in unit_list1:
     unit_list2 = unit.split('=')
     unit_kv[unit_list2[0]] = unit_list2[1]
 
-# 旧文件
-wb = xw.Book(r''+file) # 把需要转成txt的原表格文件放到files文件夹下
+wb = xw.Book(r''+file)
 
 sht = wb.sheets[0]
 
