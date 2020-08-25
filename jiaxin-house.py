@@ -19,7 +19,7 @@ list_value = wb.sheets[0].range('A2', 'G100').value  # 需要导出的原表格�
 # sht.range('A1:G100').api.NumberFormat = '@'
 sht.range('A1:G1').options().value = ['id', 'code', 'unit_id', 'floor', 'type', 'toward', 'area']
 for i in range(len(list_value)):
-    if list_value[i][0] == None :
+    if list_value[i][0] is None:
         continue
     list0 = list_value[i][0].split('#')
     print(list_value[i])
