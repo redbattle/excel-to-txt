@@ -37,4 +37,4 @@ for i in range(len(list_value)):
     sht.range('F' + str(i+2)).options().value = "'" + str(list_value[i][4])
     # 第7列 area
     sht.range('G' + str(i+2)).options().value = "'" + str(list_value[i][5])
-# wb.save()
+wb.save()
